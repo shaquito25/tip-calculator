@@ -1,0 +1,72 @@
+/* Importa la fuente de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+
+:root {
+    --very-dark-cyan: hsl(183, 100%, 15%);
+    --dark-grayish-cyan: hsl(186, 14%, 43%);
+    --grayish-cyan: hsl(184, 14%, 56%);
+    --light-grayish-cyan: hsl(185, 41%, 84%);
+    --very-light-grayish-cyan: hsl(189, 41%, 97%);
+    --white: hsl(0, 0%, 100%);
+    --strong-cyan: hsl(172, 67%, 45%)
+  }
+
+/* Establece la fuente y el peso para todos los elementos */
+* {
+  font-family: 'Space Mono', monospace;
+  font-weight: 700;
+}
+
+.amount{
+    color: var(--strong-cyan);
+}
+
+body{
+    background-color: var(--light-grayish-cyan);
+}
+
+#bill:focus{
+    border-color: green;
+}
+
+.button-tip{
+    background-color: var(--very-dark-cyan);
+    color: var(--white);
+}
+
+.button-tip:hover{
+    background-color: var(--strong-cyan);
+}
+
+.active{
+    background-color: var(--strong-cyan);
+}
+
+.button-reset{
+    background-color: var(--grayish-cyan);
+}
+
+.button-reset:hover{
+    background-color: var(--light-grayish-cyan);
+}
+
+#custom-tip:focus{
+    border-color: green;
+}
+
+.onRight{
+    text-align: right;
+}
+
+#people:focus{
+    border-color: green;
+}
+
+.total-container{
+    background-color:var(--very-dark-cyan);
+    border-radius: 20px;
+}
+.white-container{
+    background-color: var(--white);
+    border-radius: 15px;
+}
